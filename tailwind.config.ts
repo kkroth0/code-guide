@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -52,6 +53,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				doc: {
+					bg: 'hsl(var(--doc-bg))',
+					sidebar: 'hsl(var(--doc-sidebar))',
+					'sidebar-hover': 'hsl(var(--doc-sidebar-hover))',
+					active: 'hsl(var(--doc-active))',
+					text: 'hsl(var(--doc-text))',
+					'text-muted': 'hsl(var(--doc-text-muted))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +76,14 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-bg': 'var(--gradient-bg)'
+			},
+			boxShadow: {
+				'card': 'var(--shadow-card)',
+				'glow': 'var(--shadow-glow)'
 			},
 			keyframes: {
 				'accordion-down': {
